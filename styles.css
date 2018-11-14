@@ -1,0 +1,103 @@
+*
+{
+	box-sizing: border-box;
+	font-family: arial;
+	
+}
+h2
+{
+	color: red;
+}
+
+html body
+{
+	margin: 0;
+	padding: 0;
+}
+.nav ul {
+	margin: 0;
+}
+
+.nav li a
+{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: .5em;
+}
+.nav li
+{
+	display: inline;
+}
+.nav a:hover
+{
+	background-color: rgba(255,255,255,.50);
+}
+.main-nav
+{
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: lighter;
+	border-bottom: 1px solid rgba(255,255,255,.3);
+}
+.main-header
+{
+	background-color: rgba(0,0,0,.6);
+	background-image: url("head.jpg");
+	background-size: cover;
+    height: 40%;
+    padding-bottom: 30px;
+}
+.brand-name
+{
+	text-align: center;
+	font-size: 4em;
+	font-family: times new roman;
+	color: white;
+}
+.brand-name-large
+{
+	font-size:6em;
+}
+.containt-section
+{
+	margin: 1em;
+	padding: 0;
+	
+}
+.containt-about
+{
+	font-family: times new roman;
+	text-align: center;
+	font-weight: normal;
+    color: red;
+}
+.about-image
+{
+	float: left;
+	border-radius: 50%;
+}
+.main-footer
+{
+	background-color: #3C6F06;
+	color: white;
+	padding:2.5em;
+}
+.main-footer-containt
+{
+	display: flex;
+}
+.main-footer-containt ul
+{
+	flex-grow: 1;
+	text-align: end;
+}
+.footer-nav li
+{
+	padding: 0  .5em;
+}
+.footer-nav img
+{
+	height: 30px;
+	width: 30px;
+}
