@@ -1,112 +1,120 @@
 <html>
 <body>
-	<header>
-		<nav>
+		<head>
+		<meta name="description" content="this is the description">
+	    <link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<header class="main-header">
+		<nav class="nav main-nav">
 			<ul>
 				<li><a href="web.html"> Home</a></li>
 				<li><a href="About.html"> About</a></li>
-				<li> Store</li>
+				<li><a href="music.html"> Store</a></li>
 			</ul>
 		</nav>
-		<hr>
-		<h1>THE GENERICS</h1>
+		
+		<h1 class="brand-name brand-name-large">THE KITCHEN</h1>
 	</header>
-	<section>
-		<h2>SANDWICH & NOODLES</h2>
-		<div>
-		<div>
-			<strong>Recipe1</strong>
-		</div>
-			<img src="sandwich.jpg">
+	<section class="containt-section">
+		<h2 class="containt-about">SANDWICH & NOODLES</h2>
+		<div class="shop-items">
+		<div class="shop-item">
+		  <span class="shop-item-title">Recipe1</span>
+			<img class="shop-item-image" src="sandwich.jpg">
 		
-		<div>
-			<span>Rs 60</span>
-			<button type="button">ADD TO CART</button>
+		<div class="shop-item-details">
+			<span class="shop-item-price">Rs 60</span>
+			<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 		</div>
-
-		<div>
-			<strong>Recipe2</strong>
-		</div>
-			<img src="sandwich1.jpg">
+	</div>
+        
+		<div class="shop-item">
+			<span  class="shop-item-title">Recipe2</span>
+		    <img class="shop-item-image" src="sandwich1.jpg">
 		
-		<div>
-			<span>Rs 70</span>
-			<button type="button">ADD TO CART</button>
-		</div>
-
-		<div>
-			<strong>Recipe3</strong>
-		</div>
-			<img src="noodles.jpg">
-		
-		<div>
-			<span>Rs 160</span>
-			<button type="button">ADD TO CART</button>
-		</div>
-		<div>
-			<strong>Recipe4</strong>
-		</div>
-			<img src="nn.jpg">
-		
-		<div>
-			<span>Rs 200</span>
-			<button type="button">ADD TO CART</button>
+		<div class="shop-item-details">
+			<span class="shop-item-price">Rs 70</span>
+			<button  class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 		</div>
 	</div>
 
-	</section>
-	<section>
-		<h2>coffee</h2>
-		<div>
-		<div>
-			<strong>Recipe1</strong>
-		</div>
-		<img src="coffee.jpg">
-		<div>
-			<span>Rs 40</span>
-			<button type="button">ADD TO CART</button>
-		</div>
-		<div>
-			<strong>Recipe2</strong>
-		</div>
-		<img src="cof.jpg">
-		<div>
-			<span>Rs 40</span>
-			<button type="button">ADD TO CART</button>
+		<div class="shop-item">
+			<span class="shop-item-title">Recipe3</span>
+		    <img   class="shop-item-image" src="noodles.jpg">
+		
+		<div  class="shop-item-details">
+			<span class="shop-item-price">Rs 160</span>
+			<button  class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 		</div>
 	</div>
+
+		<div class="shop-item">
+			<span class="shop-item-title">Recipe4</span>
+			<img  class="shop-item-image" src="nn.jpg">
+		
+		<div  class="shop-item-details">
+			<span class="shop-item-price">Rs 200</span>
+			<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+		</div>
+	</div>
+</div>
+
 	</section>
-	<section>
-		<h2>CART</h2>
-		<div>
-			<strong>ITEM</strong>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<strong>PRICE</strong>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<strong>QUANTITY</strong>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<section class="containt-section">
+		<h2 class="containt-about">coffee</h2>
+		<div class="shop-items">
+		<div class="shop-item">
+			<span class="shop-item-title">Recipe1</span>
+		
+		<img class="shop-item-image" src="coffee.jpg">
+		<div  class="shop-item-details">
+			<span class="shop-item-price">Rs 40</span>
+			<button class="btn btn-primary shop-item-button"  type="button">ADD TO CART</button>
+		</div>
+	</div>
+		<div class="shop-item">
+			<span class="shop-item-title">Recipe2</span>
+		   <img class="shop-item-image" src="cof.jpg">
+		<div class="shop-item-details">
+			<span  class="shop-item-price">Rs 40</span>
+			<button  class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+		</div>
+	</div>
+</div>
+	</section>
+	<section class="container containt-section">
+		<h2 class="containt-about" >CART</h2>
+		<div class="cart-row">
+			<span class="cart-item cart-header cart-column">ITEM</span>
+			<span class="cart-price cart-header cart-column">PRICE</span>
+			<span class="cart-quantity cart-header cart-column">QUANTITY</span>
 
 		</div>
-		<div>
-			<img src="sandwich.jpg" width="80" height="80">
-			<span>Sandwich</span>
-			<span>60</span>
-			<button>1</button>
-			<button type="button">Proceed</button>
+		<div class="cart-row">
+		<div class="cart-item cart-column">
+			<img class="cart-item-image" src="sandwich.jpg" width="80" height="80">
+			<span class="cart-item-title">Sandwich</span>
 		</div>
-
-		<div>
-			<img src="coffee.jpg" width="80" height="80">
-			<span>Sandwich</span>
-			<span>40</span>
-			<button>1</button>
-			<button type="button">Proceed</button>
-			<hr>
+			<span class="cart-price cart-column">60</span>
+			<div class="cart-quantity cart-column">
+			    <input class="cart-quantity-input" type="number" value="1">
+			     <button  class="btn btn-danger cart-quantity-danger" type="button">Proceed</button>
+		    </div>
+	   </div>
+          <div class="cart-row">
+		<div class="cart-item cart-column">
+			<img class="cart-item-image" src="coffee.jpg" width="80" height="80">
+			<span class="cart-item-title">Coffee</span>
 		</div>
-		<div>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<strong>Total</strong>
-			<span>Rs 100</span>
+			<span class="cart-price cart-column">40</span>
+			<div class="cart-quantity cart-column">
+			    <input class="cart-quantity-input" type="number" value="1">
+			     <button  class="btn btn-danger cart-quantity-danger" type="button">Proceed</button>
+		    </div>
+		</div>
+		<div class="cart-total">
+			<span class="cart-total-title">Total</span>
+			<span class="cart-total-price">Rs 100</span>
 		</div>
 		
 
@@ -114,14 +122,25 @@
 	</section>
 	   	   	  	
 
-	<footer>
-		 <h1>The generics</h1>
-		 <ul>
-		 	<li><a href="http://youtube.com"></a>
-		 		<img src="images.jpg" width="80" height="80">
+	 <footer class="main-footer">
+	   <div class="containter main-footer-containt"> 
+		 <h1 class="brand-name">The Kitchen</h1>
+
+		 <ul class="nav footer-nav">
+		 	<li>
+		 		<a href="https://www.youtube.com" target="_blank">
+		 		<img src="images.jpg" width="100" height="100">
+		 	</a>
+		 </li>
+		 	<li>
+		 		<a href="https://facebook.com" target="_blank">
+		 		<img src="fb.png" width="100" height="100">
+		 	</a>
 		 	</li>
-		 	<li><img src="fb.png" width="100" height="80"></li>
 		 </ul>
+
+		</div>
+		
 	</footer>
 </body>
 </html>
