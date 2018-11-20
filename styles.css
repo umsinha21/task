@@ -208,6 +208,14 @@ html body
 	justify-content: space-around;
 }
 
+.shop-item-price {
+    padding-right: 3em;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 1em;
+
+}
+
 .cart-header {
 	font-size: 1.25em;
 	font-weight: bold;
